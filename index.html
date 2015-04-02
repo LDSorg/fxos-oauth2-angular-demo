@@ -68,7 +68,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" ng-class="!MNC.navCollapsed && 'in'">
           <ul class="nav navbar-nav navbar-right">
             <li ng-if="!MNC.session.user"><a
               ng-click="MNC.openLogin()"
