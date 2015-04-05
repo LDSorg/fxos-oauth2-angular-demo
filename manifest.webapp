@@ -9,8 +9,8 @@
   }
 , "permissions": {
     "systemXHR": {}
-  },
-  "redirects": {
+  }
+, "redirects": {
     "from": "http://must-be-a-fake-domain.com",
     "to": "/oauth-close.html"
   }
